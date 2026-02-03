@@ -15,47 +15,49 @@ body {
   color: var(--white-pri);
 }
 
-nav {
-  background-color: var(--bgc-black);
-  height: 3.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 75%;
-  margin: 0 auto;
+.mod-nav {
   position: sticky;
   top: 0;
   z-index: 1;
+  background-color: var(--bgc-black);
+  nav {
+    height: 3.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
 
-  .right-logo img {
-    height: 22px;
-  }
-  .mid-links a {
-    text-decoration: none;
-    color: var(--white-pri);
-    font-size: 14px;
-    padding: 15px;
-  }
-  .left-cta {
-    font-size: 14px;
-    padding: 5.88px 10.5px;
-  }
-  .left-cta .sign-in {
-    color: var(--white-pri);
-    background: var(--bgc-black);
-    font-size: 14px;
-    padding: 5.88px 10.5px;
-    border-radius: 40px;
-    border: none;
-    border: 1px solid rgba(237, 236, 236, 0.2);
-  }
-  .left-cta .download {
-    color: var(--bgc-black);
-    background: var(--white-pri);
-    font-size: 14px;
-    padding: 5.88px 10.5px;
-    border-radius: 40px;
-    border: none;
+    .right-logo img {
+      height: 22px;
+    }
+    .mid-links a {
+      text-decoration: none;
+      color: var(--white-pri);
+      font-size: 14px;
+      padding: 15px;
+    }
+    .left-cta {
+      font-size: 14px;
+      padding: 5.88px 10.5px;
+    }
+    .left-cta .sign-in {
+      color: var(--white-pri);
+      background: var(--bgc-black);
+      font-size: 14px;
+      padding: 5.88px 10.5px;
+      border-radius: 40px;
+      border: none;
+      border: 1px solid rgba(237, 236, 236, 0.2);
+    }
+    .left-cta .download {
+      color: var(--bgc-black);
+      background: var(--white-pri);
+      font-size: 14px;
+      padding: 5.88px 10.5px;
+      border-radius: 40px;
+      border: none;
+    }
   }
 }
 
@@ -340,7 +342,7 @@ main {
     position: absolute;
     top: 18%;
     left: 16%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 16px;
     font-weight: 400;
   }
@@ -354,15 +356,15 @@ main {
     transform: translate(-50%, -50%);
 
     a {
-    color: rgb(245, 78, 0);
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 30px;
+      color: rgb(245, 78, 0);
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 30px;
 
-    i {
-      font-size: 12px;
+      i {
+        font-size: 12px;
+      }
     }
-  }
 
     .card-highlight {
       width: 650px;
