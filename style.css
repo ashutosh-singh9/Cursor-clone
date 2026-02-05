@@ -173,7 +173,8 @@ main {
     }
     .code-img {
       border-radius: 8px;
-      width: 664px;
+      width: 80%;
+      height: 80%;
       position: absolute;
       left: 50%;
       top: 50%;
