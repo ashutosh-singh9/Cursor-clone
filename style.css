@@ -329,6 +329,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 180px;
+  
   h2 {
     font-size: 36px;
     font-weight: 400;
@@ -339,6 +340,7 @@ main {
     padding: 15px 30px;
     margin-bottom: 40px;
     border-radius: 40px;
+    
   }
   img {
     border-radius: 4px;
@@ -403,6 +405,7 @@ main {
 .download-now {
   position: relative;
   height: 420px;
+  margin-bottom: 50px;
   div {
     position: absolute;
     left: 50%;
@@ -421,6 +424,7 @@ main {
     left: 50%;
     border-radius: 40px;
     transform: translateX(-50%);
+    
   }
 }
 
