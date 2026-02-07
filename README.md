@@ -10,8 +10,16 @@ Original Website: https://cursor.com/
 https://cursor.ashu.fun/
 
 ## Screenshots
-### Homepage:
-//img
+ Homepage:
+<img src="readme-reso/home-page.png" alt="Homepage hero and layout preview" />
+ Trusted By:
+<img src="readme-reso/trusted-by.png" alt="Trusted by companies section" />
+ Testimonials:
+<img src="readme-reso/testimonials.png" alt="Testimonials section" />
+ Footer:
+<img src="readme-reso/footer.png" alt="Footer section preview" />
+
+
 ---
 
 ## Objective
